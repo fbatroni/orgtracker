@@ -1,0 +1,32 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 6
+  },
+  "plugins": [
+    "prettier",
+    "babel"
+  ],
+  "rules": {
+    "class-methods-use-this": "off",
+    "func-names": "off",
+    "no-lonely-if": "off",
+    "no-param-reassign": "off",
+    "no-underscore-dangle": "off",
+    "prettier/prettier": "error",
+    "spaced-comment": "off",
+    "no-plusplus": "off",
+    "import/no-dynamic-require": "off"
+  },
+  "globals": {
+    "IS_PRODUCTION_BUILD": true
+  }
+}

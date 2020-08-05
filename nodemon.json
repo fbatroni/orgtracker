@@ -1,0 +1,9 @@
+{
+  "verbose": true,
+  "ignore": [
+    "test/*",
+    "public/*",
+    "node_modules/*"
+  ],
+  "ext": "js,json"
+}

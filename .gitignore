@@ -1,0 +1,38 @@
+# vim swp files
+.vimrc
+*.swp
+
+# OSX os files
+.DS_Store
+.DS_Store?
+
+# SASS
+.sass-cache
+*.css.map
+
+# NODE
+node_modules
+public
+
+# IntelliJ
+.idea
+*.iml
+
+# Porter
+.porter*
+porter
+
+# Test files
+coverage/
+artifacts/
+
+# local environment file
+local.env
+.env
+
+# Visual Studio Code configs
+.vscode/
+
+# dynamically generated output i.e. docs
+_dist/
+dist/

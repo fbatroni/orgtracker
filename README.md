@@ -106,6 +106,8 @@ npm run local (runs redis and postgres database via docker (start and stop using
 - Linting (eslint and prettier) - `npm run lint` - linting is also ran automatically is pre-commit hook (lint-staged)
 - Redis commander - GUI for viewing local redis instance data (optional)
 
+#### Deployment
+Project is running on Heroku at `https://orgtracker.herokuapp.com/` 
 
 
 

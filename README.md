@@ -43,7 +43,7 @@ once is downloaded make sure the docker daemon is running.
 It's important that you use this version consistently to prevent package-lock.json churn.
 
 Simple version:
-[Download and install](https://nodejs.org/download/release/v10.16.0/)
+[Download and install](https://nodejs.org/download/release/v12.4.0/)
 
 NVM version:
 * Install NVM [Install instructions](https://github.com/creationix/nvm#install-script).

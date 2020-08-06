@@ -35,4 +35,10 @@ Organization.findBySearchCriteria = async (criteria) => {
   return foundOrg;
 };
 
+Organization.createOrg = async (payload) => {
+  let createdOrg = await Organization.create(payload);
+
+  return createdOrg;
+};
+
 export default Organization;

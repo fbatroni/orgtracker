@@ -6,7 +6,7 @@ import { sessionExpiryInMilliseconds } from '../../../config/session';
 class OrgController {
   static async create(req, res) {
     try {
-      const newOrg = await new Organization.create(req.body);
+      const newOrg = await new Organization.createOrg(req.body);
 
       res.status(201).json({ organization: newOrg });
     } catch (error) {

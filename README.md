@@ -52,6 +52,15 @@ NVM version:
 * Verify the version matches the version in the .nvmrc file with `node --v`.
 * You can set the Default version to use globally with `nvm alias default <version>`.
 
+#### Local Environment Variables
+Create a .env file to store local environment variables - this is used dotenv
+```sh
+DATABASE_URL='postgres://postgres:docker@localhost:5432'
+PORT=9191
+ORGTRACKER_APP_SECRET=9sb9g178-0701-4f01-b49e-2ed4854f77cd
+REDIS_URL='redis://localhost:6379'
+NODE_ENV=local
+```
 
 #### Project Layout
 The project is laid out in the following way:

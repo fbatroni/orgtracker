@@ -11,7 +11,7 @@ if [ -z "$IS_REDIS_RUNNING" ]; then # not running
       echo "Starting local Postgres..."
       docker start ${POSTGRES_NAME} > /dev/null 2>&1
     else
-      echo "Local Postgres already running. Using existing redis on port: 5432"
+      echo "Local Postgres already running. Using existing Postgres on port: 5432"
     fi
   fi
 else
